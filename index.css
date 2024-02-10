@@ -1,0 +1,153 @@
+/*
+*{
+    list-style:none;
+}
+*/
+body{
+  font-family:'Courier New', Courier, monospace;
+}
+   header ul{
+      padding:20px;
+      background-color:rgb(95, 219, 167);
+      margin:10px 1px;
+      text-align:end;
+    }
+    header li{
+      display:inline-flex;
+      margin-right:20px;
+    }
+    header a{
+      text-align:end;
+      text-decoration:none;
+      color:black;
+      font-size: 20px;
+      font-family: sans-serif;
+    }
+    
+    .container{
+      height:300px;
+      width:100%;
+      background-color:rgba(219, 70, 12, 0.689);
+      color:white;
+      font-size:25px;
+      text-align:center;
+      padding:200px 0;
+      font-family:'Courier New', Courier, monospace;
+      line-height: 15px;
+    } 
+
+    .container img{
+        border-radius: 150px;
+        box-shadow: 0 0 5px 5px rgba(98, 96, 96, 0.929);
+    }
+   
+    
+    #navbar{
+      position:fixed;
+      width:99%;
+      margin-top:0;
+    }
+    #projects{
+        background-color: lightblue;
+        text-align:center;
+        padding:20px;
+        
+    }
+    .project_list {
+      background-color:  lavender;
+      text-align:center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px 5px;
+      margin-bottom: 2em;
+    }
+    .project-title{
+        margin:20px;
+        padding-top:0;
+        box-shadow: 0px 0px 10px 5px  rgba(15, 228, 40, 0.958);
+        padding:10px;
+        border-radius:10px;
+    }
+    
+    @media screen and (min-width: 400px) {
+      .project_list {
+        background-color: lightgreen;
+        box-shadow: 0px 0px 10px 10px  rgba(138, 136, 136, 0.89);   
+      }
+    }
+    
+    /*
+    @media screen and (min-width: 400px) {
+        .project_list {
+        background-color: lavender; 
+      }
+    }
+    */
+    
+  .contact-info{
+    background-color: burlywood;
+    margin:0;
+    padding:3em;
+  }
+    .portfolio_link{
+      width:80%;
+      height:400px;
+      background-color:rgba(191, 7, 35, 0.644);
+      font-size:20px;
+      text-align:center;
+      font-weight: bold;
+      margin:0 auto;
+      border-top: 20px;
+      box-shadow: 0px 0px 10px 5px  rgba(172, 135, 49, 0.958);
+      line-height: 25px;
+    }
+  
+    #skill-bg{
+      background-color: rgb(88, 157, 241);
+      height: 600px;
+      width: 100%;
+     padding:1px auto;
+      align-items:center;
+     display: flex;
+     flex-direction: row;
+     gap:20px;
+     
+    }
+    .box{
+      margin:5em auto;
+      padding: 0;
+      align-items:center;
+     display: flex;
+     flex-direction: row;
+     box-shadow: 0px 0px 10px 5px  rgba(220, 207, 179, 0.958);
+     
+    }
+
+    #box-1, #box-2{
+      background-color: rgb(234, 223, 221);
+      line-height: 10px;
+      padding: 20px;
+      height: 300px;
+      width: auto;  
+    }
+
+    ul{
+      list-style-type:circle;
+    }
+    li{
+      line-height: 25px;
+    }
+    .box h3{
+      text-align: center;
+    }
+    input{
+      padding:5px;
+      background-color: rgb(106, 106, 199);
+      cursor: pointer;
+    }
